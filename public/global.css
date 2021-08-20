@@ -1,6 +1,8 @@
 :root {
-  --background-color: #0F1419;
-  --second-color: #14191F;
+  --background-color: rgb(13, 17, 23);
+  --secondary-color: rgb(22, 27, 34);
+
+  --text-color: rgb(240, 246, 252);
 }
 
 html, body {
