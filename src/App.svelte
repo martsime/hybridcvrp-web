@@ -1,9 +1,7 @@
 <script>
   export let hybridcvrp;
 
-  import Navbar from "./components/Navbar.svelte";
+  import MainPage from "./pages/MainPage.svelte";
 </script>
 
-<main>
-  <Navbar />
-</main>
+<MainPage />
