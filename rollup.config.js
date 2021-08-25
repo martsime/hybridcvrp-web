@@ -7,7 +7,6 @@ import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 import css from 'rollup-plugin-css-only';
 import copy from 'rollup-plugin-copy';
-import rust from "@wasm-tool/rollup-plugin-rust";
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -52,11 +51,6 @@ export default {
     css({ output: 'bundle.css' }),
     replace({
       'process.env.NODE_ENV': JSON.stringify('production'),
-    }),
-    rust({
-      verbose: true,
-      serverPath: "./build/",
-      cargoArgs: ["--features", "wasm"],
     }),
 
     // If you have external dependencies installed from
