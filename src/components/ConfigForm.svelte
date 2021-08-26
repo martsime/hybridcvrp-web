@@ -245,7 +245,7 @@
         <input
           type="number"
           class="form-control"
-          id="rr-gamma-input"
+          id="elite-gamma-input"
           bind:value={currentConfig.eliteGamma}
           class:is-invalid={isInvalid.eliteGamma}
         />

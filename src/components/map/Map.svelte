@@ -247,7 +247,7 @@
     position: relative;
     margin: 0 auto;
     width: 100%;
-    height: 80vh;
+    height: calc(100vh - 200px);
     border-radius: 10px;
     background-color: var(--secondary-color);
   }
