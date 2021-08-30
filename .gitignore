@@ -1,7 +1,6 @@
 /node_modules/
 /public/build/
 /public/vendor/
-/public/worker.js
 
 tags
 tags.lock
